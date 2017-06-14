@@ -1,3 +1,5 @@
+#!/usr/bin/env runhaskell
+
 import System.Directory
 import System.Environment
 import System.Exit
