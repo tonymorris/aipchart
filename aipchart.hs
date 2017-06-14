@@ -11,11 +11,11 @@ erch =
   (
     "erch"
   , [
-      "erch1.pdf"
-    , "erch2.pdf"
-    , "erch3.pdf"
-    , "erch4.pdf"
-    , "erch5.pdf"
+      "erch1"
+    , "erch2"
+    , "erch3"
+    , "erch4"
+    , "erch5"
     ]
   )
 
@@ -23,14 +23,14 @@ ercl =
   (
     "ercl"
   , [
-      "ercl1.pdf"
-    , "ercl2.pdf"
-    , "ercl3.pdf"
-    , "ercl4.pdf"
-    , "ercl5.pdf"
-    , "ercl6.pdf"
-    , "ercl7.pdf"
-    , "ercl8.pdf"
+      "ercl1"
+    , "ercl2"
+    , "ercl3"
+    , "ercl4"
+    , "ercl5"
+    , "ercl6"
+    , "ercl7"
+    , "ercl8"
     ]
   )
 
@@ -38,8 +38,8 @@ pca =
   (
     "pca"
   , [
-      "PCA_back.pdf"
-    , "PCA_front.pdf"
+      "PCA_back"
+    , "PCA_front"
     ]
   )
 
@@ -47,14 +47,14 @@ tac =
   (
     "tac"
   , [
-      "tac1.pdf"
-    , "tac2.pdf"
-    , "tac3.pdf"
-    , "tac4.pdf"
-    , "tac5.pdf"
-    , "tac6.pdf"
-    , "tac7.pdf"
-    , "tac8.pdf"
+      "tac1"
+    , "tac2"
+    , "tac3"
+    , "tac4"
+    , "tac5"
+    , "tac6"
+    , "tac7"
+    , "tac8"
     ]
   )
 
@@ -62,20 +62,20 @@ vnc =
   (
     "vnc"
   , [
-      "Adelaide_VNC.pdf"
-    , "Brisbane_VNC.pdf"
-    , "Bundaberg_VNC.pdf"
-    , "Cairns_VNC.pdf"
-    , "Darwin_VNC.pdf"
-    , "Hobart_VNC.pdf"
-    , "Launceston_VNC.pdf"
-    , "Melbourne_VNC.pdf"
-    , "Newcastle_VNC.pdf"
-    , "Perth_VNC.pdf"
-    , "Rockhampton_VNC.pdf"
-    , "Sydney_VNC.pdf"
-    , "Tindal_VNC.pdf"
-    , "Townsville_VNC.pdf"
+      "Adelaide_VNC"
+    , "Brisbane_VNC"
+    , "Bundaberg_VNC"
+    , "Cairns_VNC"
+    , "Darwin_VNC"
+    , "Hobart_VNC"
+    , "Launceston_VNC"
+    , "Melbourne_VNC"
+    , "Newcastle_VNC"
+    , "Perth_VNC"
+    , "Rockhampton_VNC"
+    , "Sydney_VNC"
+    , "Tindal_VNC"
+    , "Townsville_VNC"
     ]
   )
 
@@ -83,30 +83,30 @@ vtc =
   (
     "vtc"
   , [
-      "Adelaide_VTC.pdf"
-    , "Albury_VTC.pdf"
-    , "AliceSprings_Uluru_VTC.pdf"
-    , "Brisbane_Sunshine_VTC.pdf"
-    , "Broome_VTC.pdf"
-    , "Cairns_VTC.pdf"
-    , "Canberra_VTC.pdf"
-    , "Coffs_Harbour_VTC.pdf"
-    , "Darwin_VTC.pdf"
-    , "Gold_Coast_VTC.pdf"
-    , "Hobart_VTC.pdf"
-    , "Karratha_VTC.pdf"
-    , "Launceston_VTC.pdf"
-    , "Mackay_VTC.pdf"
-    , "Melbourne_VTC.pdf"
-    , "Newcastle_Williamtown_VTC.pdf"
-    , "Oakey_Bris_VTC.pdf"
-    , "perth_legend.pdf"
-    , "Perth_VTC.pdf"
-    , "Rockhampton_VTC.pdf"
-    , "Sydney_VTC.pdf"
-    , "Tamworth_VTC.pdf"
-    , "Townsville_VTC.pdf"
-    , "Whitsunday_VTC.pdf"
+      "Adelaide_VTC"
+    , "Albury_VTC"
+    , "AliceSprings_Uluru_VTC"
+    , "Brisbane_Sunshine_VTC"
+    , "Broome_VTC"
+    , "Cairns_VTC"
+    , "Canberra_VTC"
+    , "Coffs_Harbour_VTC"
+    , "Darwin_VTC"
+    , "Gold_Coast_VTC"
+    , "Hobart_VTC"
+    , "Karratha_VTC"
+    , "Launceston_VTC"
+    , "Mackay_VTC"
+    , "Melbourne_VTC"
+    , "Newcastle_Williamtown_VTC"
+    , "Oakey_Bris_VTC"
+    , "perth_legend"
+    , "Perth_VTC"
+    , "Rockhampton_VTC"
+    , "Sydney_VTC"
+    , "Tamworth_VTC"
+    , "Townsville_VTC"
+    , "Whitsunday_VTC"
     ]
   )
 
@@ -159,6 +159,7 @@ wgetaipchart d x y =
             , x
             , "/"
             , y
+            , ".pdf"
             ]
   in  do  mapM_ (createDirectoryIfMissing True) [d, d </> x]
           rawSystem
