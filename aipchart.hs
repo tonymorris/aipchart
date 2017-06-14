@@ -141,25 +141,6 @@ traverseExitCode ::
 traverseExitCode f =
   foldr ((>.>) . f) (pure ExitSuccess)
 
--- rawSystem :: String -> [String] -> IO GHC.IO.Exception.ExitCode
-
-
-{-
-  rawSystem'
-    (l </> concat [f d, ".get.err"])
-    (l </> concat [f d, ".get.out"])
-    "wget"
-    [
-      "--no-check-certificate"
-    , "-c"
-    , "--show-progress"
-    , "--directory-prefix"
-    , w
-    , baseuri d ++ a
-    ])
-
-                -}
-
 baseuri ::
   String
 baseuri =
