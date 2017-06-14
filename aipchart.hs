@@ -2,7 +2,7 @@
 
 erch =
   [
-  , "erch/erch1.pdf"
+    "erch/erch1.pdf"
   , "erch/erch2.pdf"
   , "erch/erch3.pdf"
   , "erch/erch4.pdf"
@@ -11,7 +11,7 @@ erch =
 
 ercl =
   [
-  , "ercl/ercl1.pdf"
+    "ercl/ercl1.pdf"
   , "ercl/ercl2.pdf"
   , "ercl/ercl3.pdf"
   , "ercl/ercl4.pdf"
@@ -23,13 +23,13 @@ ercl =
 
 pca =
   [
-  , "pca/PCA_back.pdf"
+    "pca/PCA_back.pdf"
   , "pca/PCA_front.pdf"
   ]
 
 tac =
   [
-  , "tac/tac1.pdf"
+    "tac/tac1.pdf"
   , "tac/tac2.pdf"
   , "tac/tac3.pdf"
   , "tac/tac4.pdf"
@@ -41,7 +41,7 @@ tac =
 
 vnc =
   [
-  , "vnc/Adelaide_VNC.pdf"
+    "vnc/Adelaide_VNC.pdf"
   , "vnc/Brisbane_VNC.pdf"
   , "vnc/Bundaberg_VNC.pdf"
   , "vnc/Cairns_VNC.pdf"
@@ -59,7 +59,7 @@ vnc =
 
 vtc =
   [
-  , "vtc/Adelaide_VTC.pdf"
+    "vtc/Adelaide_VTC.pdf"
   , "vtc/Albury_VTC.pdf"
   , "vtc/AliceSprings_Uluru_VTC.pdf"
   , "vtc/Brisbane_Sunshine_VTC.pdf"
